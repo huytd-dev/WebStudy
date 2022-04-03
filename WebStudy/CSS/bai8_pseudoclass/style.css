@@ -1,0 +1,43 @@
+a:link{
+    color: chartreuse;
+
+}
+a:visited{
+    color: bisque;
+
+    /* mau mac dinh khi tao nhin thay  */
+}
+
+a:hover{
+    color: darkgreen;
+    /* mau khi ta dua chuot vao */
+}
+a:active{
+    color: black;
+    /* mau khi ta nhan vao link va giu */
+}
+button:hover{
+    background-color: rgb(126, 81, 231);
+}
+
+/* li:nth-child(1){
+    background-color: burlywood;
+    /* to mau phan tu ta goi den trong li nhu tren la 1 ca co the doi thanh 5 6 */
+/* } */ 
+
+li:nth-child(even){
+    background-color: aquamarine;
+    /* to mau phan tu chan */
+}
+
+li:nth-child(odd){
+    background-color: coral;
+
+    /* to mau phan tu le */
+} 
+
+/* li:nth-child(3n){
+    background-color: coral;
+    to mau phan tu la uoc cua 3 ta co the dung 4n 5n ...
+    
+} */

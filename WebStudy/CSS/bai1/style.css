@@ -1,0 +1,38 @@
+
+        body{
+            background-color: rgb(53, 55, 66);
+        }
+
+        h1{
+            color: rgb(61, 207, 207);
+        }
+        p{
+            background-color: bisque;
+            color: rgb(111, 180, 90);
+        }
+        #p1{
+            color: brown;
+        }
+
+        /* #p2{
+            color: rgb(121, 39, 197);
+        }
+
+        #p3{
+            color: rgb(71, 62, 62);
+        }
+
+        #p4{
+            color: rgb(44, 8, 8);
+        }
+
+ */
+          .odd{
+              color: rgb(182, 109, 21);
+          }  
+
+          .even{
+            color: rgb(68, 47, 22);
+        }  
+  
+    

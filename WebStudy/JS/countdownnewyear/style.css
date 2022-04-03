@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(snowchair.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    margin: 0;
+    background-repeat: no-repeat;
+
+}
+
+.countdownny{
+    display: flex;
+}
+
+.big-text{
+    font-size: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.bodem{
+    text-align: center;
+}
+
+.bodem span{
+     font-size: 1.2rem;
+}

@@ -1,0 +1,45 @@
+
+
+#box1{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+    /* ntn se doi vi tri cua box 1 di cach top 50 trai 50 */
+    /* position: relative;
+
+    top: 100px;
+    left: 150px; */
+    /* position: fixed;
+    top: 0px;
+    right:  0px;
+    fixed se co dinh box o toan do 0 ,0 top right khi tao keo len xuong no se co dih ko di chuyen */
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    /* dan box o 1 vi tri co dinh la 0px khi ta 
+    scroll thi no van hien o do ko bi truot trick la sai vua top vua bot cho no muot */
+
+
+
+}
+
+#box2{
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(152, 185, 31);
+
+    position: absolute; 
+    /* co the set toa do net set top 0 thi no chay len dau va 
+    che di phan elemen tren do */
+    /* top: 0; */
+    top: 75px; /*vi tri se  cach top 150px  tuong tu nhu box1*/
+    left: 75px; 
+
+    /* absolute noi len ten be mat elemen */
+}

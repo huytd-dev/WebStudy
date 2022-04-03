@@ -1,0 +1,24 @@
+        h1{
+            background-color: blanchedalmond;
+            color: rgb(14, 9, 78);
+
+            border-top-style: dotted;
+            border-bottom-style: dotted;
+            border-left-style:double;
+            border-left-width:7px;
+            border-right-style: double;
+            border-right-width:7px;
+
+        }
+
+
+       p{
+
+            background-color: rgb(95, 224, 186);
+            color: rgb(155, 42, 108);
+           border-style: outset;
+           border-width: 5px;
+           border-color: gold;
+           border-radius: 10px;
+           padding: auto;
+       }

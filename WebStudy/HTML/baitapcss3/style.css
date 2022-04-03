@@ -1,0 +1,62 @@
+/* 
+   table {
+    border-collapse: collapse;
+    
+    width: 100%;
+}
+
+td, th {  
+    border: 1px solid #ddd;
+    
+  }
+
+th{
+    background-color: blanchedalmond;
+    color: rgb(60, 141, 216);
+}
+td{
+    background-color: burlywood;
+    color: blueviolet;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: darkgrey;
+} */
+
+a:link{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* de  lam menu ngnag thi ul goi den li float left */
+
+ul > li {
+    float: left;
+}
+
+ul > li > ul {
+    display: none;
+}
+
+ul > li:hover ul{
+display: block;
+position: absolute;
+right: -200px;
+
+top: 19px;
+}
+
+ul li {
+    background: burlywood;
+    border: 1px solid black;
+    width: 200px;
+    position: relative;
+}

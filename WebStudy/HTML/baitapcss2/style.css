@@ -1,0 +1,59 @@
+#div_tong{
+    height: 700px;
+    width: 100%;
+    /* background: rgb(28, 85, 87); */
+
+}
+
+#div_sanho{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: cyan;
+    position: relative;
+    
+}
+
+#div_sanho > #sanho{
+    width: 110%;
+    position: absolute;
+    
+}
+
+#div_vien{
+    width: 10%;
+    height: 100%;
+    
+    background-image: url(img/soc.jpg);
+    float: left;
+
+
+}
+
+#div_form{
+    width: 40%;
+    height: 100%;
+    
+    background-image: url(img/sua1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    float: left;
+
+
+}
+
+#div_form > #thongtin{
+    width: 80%;
+    background-color: rgb(113, 218, 122);
+    padding: 20px;
+}
+
+#div_minhhoa{
+    width: 20%;
+    height: 100%;
+    
+
+    background: rgb(13, 14, 14);
+    float: left;
+}

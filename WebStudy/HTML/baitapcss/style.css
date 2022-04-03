@@ -1,0 +1,107 @@
+#div_tong{
+    height: 700px;
+    width: 100%;
+    /* background: #278a59; */
+}
+#div_tren{
+    width: 100%;
+    height: 20%;
+    /* background: coral; */
+}
+#div_duoi{
+    width: 100%;
+    height: 80%;
+    /* background: rgb(66, 136, 194); */
+}
+#div_tren > .trai{
+    width: 50%;
+    height: 100%;
+    /* background: yellowgreen; */
+    float: left;
+}
+
+img{
+    height: 100%;
+}
+
+#div_tren > .phai{
+    width: 50%;
+    height: 100%;
+    /* background: rgb(129, 136, 116); */
+    float: left;
+}
+#div_tren > .phai > .tren{
+    width: 100%;
+    height: 85%;
+    /* background: rgb(171, 231, 60); */
+    text-align: right;
+} 
+#div_tren > .phai > .duoi{
+    width: 100%;
+    height: 15%;
+    /* background: rgb(234, 238, 226); */
+    margin-left: auto;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse
+   
+    
+}
+
+#div_tren > .phai > .duoi > .bang{
+    margin-left: auto;
+}
+
+#div_duoi > .trai{
+    width: 20%;
+    height: 100%;
+    /* background: rgb(11, 14, 5); */
+    float: left;
+    position: relative;
+}
+
+#div_duoi > .trai > #hinh2{
+    height: 30%;
+    position: absolute;
+    bottom : 0px;
+    width: 100%;
+
+}
+#div_duoi > .giua{
+    width: 60%;
+    height: 100%;
+    /* background: rgb(180, 134, 49); */
+    float: left;
+}
+
+#div_duoi > .giua > #hinh1{
+    width: 20%;
+    height: 30%;
+    /* background: rgb(180, 134, 49); */
+    float: right;
+} 
+
+
+#div_duoi > .phai{
+    width: 20%;
+    height: 100%;
+    /* background: rgb(97, 20, 24); */
+    float: left;
+}
+
+#div_duoi > .phai > .tren{
+    width: 100%;
+    height: 40%;
+    background: rgb(221, 167, 170);
+    text-align: center;
+    border: 1px solid  black;
+}
+
+#div_duoi > .phai > .duoi{
+    width: 100%;
+    height: 60%;
+    background-image: url(hoacuc.jpg);
+    background-size: cover;
+    
+}

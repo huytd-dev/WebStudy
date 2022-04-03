@@ -1,0 +1,75 @@
+#box1{
+    border: 4px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+    background: rgb(21, 199, 199);
+
+    /* animation: mySlide;
+    /* goi slide */
+
+    /* animation-play-state: running ; */
+    /* set cho slide chay (running) hoac dung (paused) */
+
+    /* animation-iteration-count: infinite; */
+    /* dem so lan chay 1 2 3 hoac de infi thi vo han */
+
+    /* animation-delay: 1s; */
+    /* set delay moi khi ket thuc vong chay */
+
+    /* animation-timing-function: linear; */
+    /* set cach chay nhanh cham tuy y' */
+    /* animation-duration: 5s; */
+    /* set tg chay cho slide */ 
+
+    /* ta co the gom 1 dong nhu sau*/
+    /* animation: 5s linear 0s  infinite running mySlide;  */
+    animation: 5s linear 0s  infinite running myColorChange; 
+    
+
+ 
+}
+
+/* co the dung pseudo class tao diem nhan */
+
+#box1:hover{
+    /* animation: 5s linear 0s  infinite running mySlide; */
+}
+
+#box1:active{
+    /* animation: 5s linear 0s  infinite running mySlide; */
+    
+}
+/* set slide chay */
+@keyframes mySlide{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+
+/* set rotate  */
+
+@keyframes myRotate{
+    100%{transform: rotateX(270deg);}
+    100%{transform: rotateY(270deg);}
+    100%{transform: rotateZ(270deg);}
+
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
+}
+
+
+@keyframes myColorChange{
+    20%{background-color: oldlace;}
+    40%{background-color: orange;}
+    60%{background-color: orchid;}
+    80%{background-color: rebeccapurple;}
+    100%{background-color: royalblue;}
+}
+

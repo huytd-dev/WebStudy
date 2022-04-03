@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="div_tong">
+            <table>
+                <tr>
+                    <th colspan="2">Phát sinh mảng va tính toán</th>
+                </tr>
+                <tr>
+                    <td>Nhập số phần tử</td>
+                    <td>
+                        <form >
+                            <input type="number" id="input_so">
+                            <button type="button" onclick="nhap()">Nhap</button>
+                            <button type="button" onclick="in_ra()">In danh sach</button>
+                            
+                        </form>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Mảng</td>
+                    <td>
+                        <div id="arr_el"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GTLN</td>
+                    <td>
+                        <div id="max_id"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GTNN</td>
+                    <td>
+                        <div id="min_id"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tổng mảng</td>
+                    <td>
+                        <label id="total"></label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <button type="submit" onClick="refreshPage()">Clear</button>
+                    </th>
+                </tr>
+
+            </table>
+
+            
+        </div>
+
+
+
+    <script src="baitaparray.js"></script>
+</body>
+</html>

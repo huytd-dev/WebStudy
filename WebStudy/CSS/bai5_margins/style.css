@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    /* marign la tao khoang cach bao quanh body toi vien cua so */
+
+}
+
+
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: orange;
+
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px; */
+    /* margin: 50px; */
+    margin-left:  auto;
+
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 280px;
+    font-size: 22px;
+    background: rgb(44, 214, 191);
+
+    margin: 10px;
+}

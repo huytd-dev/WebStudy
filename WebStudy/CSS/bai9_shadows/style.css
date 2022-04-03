@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+    text-shadow: 0px 5px 5px cornflowerblue, -5px -5px 3px rgb(43, 255, 0);
+
+    /* px dau tien la theo truc x 5px thi ve ben p neu ve ben trai thi -5
+    px thu 2 la theo truc y 
+    px thu 3 la chinh do mo cua bong
+    co the tao nhieu shadow
+    */
+    /* box-shadow: 5px 5px 5px black; */
+    /* tao 1 box co shadows tao co the ket hop pseudo nhu sau */
+}
+
+h1:hover{
+    box-shadow: 5px 5px 5px blueviolet;
+    /* khi ta tro chuot den dong chu se hien cai box :D */
+}
