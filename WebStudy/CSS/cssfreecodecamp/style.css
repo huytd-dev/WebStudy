@@ -1,0 +1,50 @@
+#tonton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body{
+    /* background-color: cadetblue; */
+    background-image: url(Background-Wallpaper-Images-Desktop.jpg);
+    background-size: cover;
+    text-transform: capitalize;
+    /* capitalize la viet hoa dau chu
+    uppercase la viet hoa toan bo
+    lowercase la viet thuong toan bo 
+     */
+     font-size: 1.15em;
+     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* sau khi them font google ben head html thi dung ben css     */
+    font-family: 'Source Serif Pro', serif;
+
+    }   
+#title{
+    color: rgb(212, 45, 68);
+    text-align: center;
+    /* text-align: la chon vi tri cua doan text nhu left right center .. */
+    font-weight: 30;
+    /* do day cua cu gia tri cang to chu cang mong */
+}
+.subtitle{
+    color: rgb(73, 51, 114);
+    /* background: rgb(241, 190, 190); */
+}
+.link {
+    color: brown;
+    text-decoration: underline;
+    /* none cai nay la xoa dau gach duoi chan link 
+    line-throuht la gach ngang dong
+    overline la tren dong chu co 1 duong ke
+    ma thuong mac dinh la 1 dong duoi chan link
+    */
+}
+#skygreen{
+    width: 30%;
+}
+#italics{
+    font-size: 1.25em;
+    font-style: italic;
+    color: brown;
+}

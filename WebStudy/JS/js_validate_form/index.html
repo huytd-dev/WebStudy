@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+
+        <form id="form">
+        <h2>Đăng kí tài khoản</h2>
+        <div id="name">
+            <input type="text" id="input_name" placeholder="Nhập tên đầy đủ"> 
+        </div>
+        <div id="sex">
+            <p>Giới tính:</p>
+            <br>
+                <div>Nam
+                <input type="radio" name="sex" >
+                </div>
+                <div>Nữ
+                <input type="radio" name="sex" >
+                </div>
+        </div>
+        <div id="adress">
+            <input type="text" id="input_adress" placeholder="Nhập địa chỉ">
+        </div>
+
+        <div id="email">
+            <input type="email" id="input_email" placeholder="Nhập email của bạn" >
+        </div>
+         
+        <div id="password">
+            <input type="password" id="input_password" placeholder="mật khẩu của bạn"> 
+        </div>
+
+        <div id="div_subject">Sở thích
+            <select id="subject">
+                <option value="sb1">Game</option>
+                <option value="sb2">Sport</option>
+                <option value="sb3">Art</option>
+            </select>
+        </div>
+        <br>
+        <input type="button" value="Đăng kí" id="button" >
+    </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
