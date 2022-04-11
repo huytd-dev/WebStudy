@@ -19,16 +19,19 @@
        <span id="italics">minus deleniti modi fugit!</span> 
     </p>
 
-    <h2 class="subtitle">
+    <div id="aboutme">
+
+        <h2 class="subtitle">
         Về tôi:D
-    </h2>
+        </h2>
+    </div>
     <img src="label.PNG" id="tonton">
     <p class="para-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis numquam aliquam eaque nulla. Voluptatum fugit delectus quod quasi dolorem aliquid quam, praesentium rem vitae alias qui inventore dicta eaque quia.</p>
 
     <h2 class="subtitle">Services</h2>
     <a href="http://www.google.com" class="link">Click here to Google</a>
 
-    <table border="1">
+    <table border="1px" class="site_table">
         <tr>
             <th colspan="4">Skill</th>
         </tr>
@@ -48,13 +51,89 @@
         </tr>
        
     </table>
+
+
     <img src="https://www.w3schools.com/css/lights600x400.jpg" id="skygreen">
+    <div class ="container">
+        <!-- flex container -->
+        <div class="container-item" style="order:3;
+        flex: 1 1 100px;
+        align-self: flex-start;
+        ">A</div>
+        <div class="container-item" style="order:4;
+        flex: 1 3 100px;
+        align-self: flex-end;
+        ">B</div>
+        <div class="container-item" style="order:2;
+        flex: 5 3 100px;
+        align-self: flex-center;
+        ">C</div>
+        <div class="container-item" style="order:1;
+        flex: 1 0 100px;
+        align-self: flex-start;
+        ">D</div>
+        <div class="container-item" style="order:4;
+        flex: 1 1 100px;
+        align-self: flex-end;
+        ">E</div>
+            <!-- flex-grow: 1;
+             rong ra theo khoang du giua cac content  
+            flex-shrink: 1;
+             co dinh kick thuong cho du ta phong to thu nho 
+            0 la ko thu 1 la giu nguyen so cang to thi thu cang nho
+            nhung ma ko dung flex grap dc
+            
+            flex-basis: 100px;
+            flex-grow-shink-basis: co the viet tat la flex: 1 1 100px; -->
+
+
+         <!-- sau khi style order thi sap xep lai thu tu content -->
+      <!--  <div class="container-item">F</div>
+         <div class="container-item">G</div>
+        <div class="container-item">H</div>
+        <div class="container-item">I</div> -->
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item" style="
+        background: blueviolet;
+        /* grid-column: 1 / span 3;
+        grid-row: 2 / span 2; */
+
+        grid-area: 2 / 1 / span2 / span 3 ;
+        ">1</div>
+        <div class="grid-item" style="
+        background: blanchedalmond;
+        ">2</div>
+        <div class="grid-item" style="
+        background: cyan;
+        ">3</div>
+        <div class="grid-item" style="
+        background: olive;
+        ">4</div>
+        <div class="grid-item" style="
+        background: orange;
+        ">5</div>
+        <div class="grid-item" style="
+        background: #15a0ca;
+        ">6</div>
+        
+        
+
+    </div>
+   
+   
+   
     <h2 class="subtitle">Contact me</h2>
     <form >
         <input type="text" placeholder="Your name" class="form-input">
+        <br>
         <input type="email" placeholder="Email" class="form-input">
+        <br>
         <textarea></textarea>
-        <button>Submit</button>
+        <br>
+        <br>
+        <button class="submit-button">Submit</button>
     </form>
 </body>
 </html>

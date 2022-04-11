@@ -1,8 +1,15 @@
 #tonton{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 30%;
+    border: 4px solid blueviolet;
+    /* padding: 100px 20px 50px 0px; 
+     neu viet ntn thu tu top right bot left */
+    /* margin: top 40px;
+    margin-bottom: 40px; */
+    float: left;
+    margin: 30px 30px 30px 30px;
 }
 
 body{
@@ -27,9 +34,16 @@ body{
     font-weight: 30;
     /* do day cua cu gia tri cang to chu cang mong */
 }
+
+#aboutme{
+    text-align: center;
+    /* border: 1px solid snow; */
+    margin-bottom: 20px;
+}
 .subtitle{
-    color: rgb(73, 51, 114);
+    color: rgb(179, 211, 39);
     /* background: rgb(241, 190, 190); */
+    
 }
 .link {
     color: brown;
@@ -41,10 +55,136 @@ body{
     */
 }
 #skygreen{
-    width: 30%;
+    border: 5px solid black;
+    width: 70%;
+    /* float: right; */
 }
 #italics{
     font-size: 1.25em;
     font-style: italic;
     color: brown;
+}
+
+
+
+
+.site_table {
+    /* display: none; 
+    cai nay la an di nha */
+    display: inline-block;
+}
+
+.container{
+    background-color: aquamarine;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    /* sau khi flex thi a b c d chuyen thanh 1 hang  */
+    /* flex-direction: column-reverse; */
+    /* sau hang nay thi flex sang cot -them  reverse thi 
+    dao nguoc vi tri a-e thanh e-a*/
+    flex-direction: row;        
+    /* row-reverse thi chuyen het sao left sigh va dao nguoc e-a */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* dong nay la dua all content o trong vao giua div
+    thay center = flex-end thi tat ca truot ve ben phai\
+    tuong tu voi flex start 
+    space-between space-betaround la chia deu khoang cach cac content
+    
+    */
+    align-items: center;
+    /* dua tat ca conten ve giua theo chieu doc
+    tuong tu co flex-start va end */
+}
+
+
+
+.container-item{
+    background: rgb(7, 104, 72);
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+
+}
+.grid-container{
+    background-color: rgb(205, 217, 240);
+    margin: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-column-gap: 100px; */
+
+    grid-template-rows: auto auto;
+
+    grid-gap: 100px 50px;
+    /* grid-row-gap: 150px; */
+    /* ket hop ta co grid gap */
+    /* justify-content: start; */
+    /* tuong tu nhu tren kia co start end left right cac kieu */
+    /* justify-content: space-around;
+    align-content: space-between; */
+     
+}
+.grid-item {
+    color: rgb(73, 10, 10);
+    font-size: 30px;
+    text-align: center;
+
+    width: 50px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+
+.submit-button{
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(224, 197, 39);
+    background: rgb(14, 36, 160);
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    /* transform: translate(50px , 30px); */
+}
+.submit-button:hover{
+    color: brown;
+    background: burlywood;
+    padding: 20px 30px;
+    border-radius: 5px;
+    /* transform: translate(50px , 30px); */
+    /* transform: scale(1.2); */
+    transform: rotate(-45deg);
+}
+#aboutme{
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+}
+
+
+@keyframes red-to-black{
+    0%{
+        background: red;
+        transform: translate(0px, 0px);
+    }
+    50%{
+        background: rgb(206, 226, 117);
+        transform: translate(10px, 10px);
+    }
+    100%{
+        background: rgb(14, 13, 13);
+        transform: translate(20px, 20px);
+    }
 }
